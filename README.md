@@ -26,11 +26,11 @@ PaddleOCRv5 在Visual Studio中进行图片OCR检测（ncnn框架+open-mobile实
 
 （1）先在Visual Studio新建一个空白工程，将本仓库代码放到该工程中。
 
-![01](C:\Users\HIT-HAYES\Desktop\docs\01.png)
+![01](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/01.png)
 
 （2）在工程中载入推理需要依赖的库。
 
-![04](C:\Users\HIT-HAYES\Desktop\docs\02.png)![03](C:\Users\HIT-HAYES\Desktop\docs\03.png)![05](C:\Users\HIT-HAYES\Desktop\docs\04.png)
+![04](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/02.png)![03](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/03.png)![05](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/04.png)
 
 需要添加的依赖项如下：
 
@@ -50,15 +50,15 @@ opencv_photo3420.lib
 opencv_video3420.lib
 ```
 
-![02](C:\Users\HIT-HAYES\Desktop\docs\05.png)
+![02](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/05.png)
 
 （3）选择开始执行，应该在工程的**Release**的目录下可以成功地生成`.exe`文件。将`weights`文件夹和测试图像复制到Release下的路径。
 
-![06](C:\Users\HIT-HAYES\Desktop\docs\06.png)
+![06](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/06.png)
 
 （4）执行推理。
 
-![06](C:\Users\HIT-HAYES\Desktop\docs\07.png)
+![06](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/07.png)
 
 推理图片的指令如下：
 
@@ -75,11 +75,11 @@ PaddleOCRv5.exe folder images        // 推理文件夹(多张图像)
 
 推理结果如下：
 
-![motto](C:\Users\HIT-HAYES\Desktop\docs\motto.png)
+![motto](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/motto.png)
 
-![test](C:\Users\HIT-HAYES\Desktop\docs\test.png)
+![test](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/test.png)
 
-![result](C:\Users\HIT-HAYES\Desktop\docs\result.jpg)
+![result](https://github.com/zhahoi/PaddleOCRv5_ncnn/blob/main/docs/result.jpg)
 
 
 
